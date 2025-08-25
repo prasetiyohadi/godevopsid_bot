@@ -80,6 +80,7 @@ def health_check():
 
 
 # Logging configuration
+# Reference: https://github.com/encode/uvicorn/discussions/2027
 
 
 class UvicornJSONAccessFormatter(JsonFormatter):
